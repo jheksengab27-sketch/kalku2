@@ -19,7 +19,7 @@ st.set_page_config(page_title="Kalkulator Harga Korea", page_icon="🇰🇷")
 st.title("🇰🇷 Kalkulator Harga Korea → Harga Bersih (IDR)")
 
 # Input
-harga_input = st.number_input("💰 Harga produk (contoh: 0.1 = 1.000 KRW)", min_value=0.0, step=0.01, format="%.3f")
+harga_input = st.number_input("💰 Harga produk (contoh: 0.1 = 1.000 KRW)", min_value=0.0, step=0.01, format="%.2f")
 pembeli = st.number_input("👥 Jumlah pembeli", min_value=1, step=1)
 rate = st.number_input("💱 Rate KRW → IDR", min_value=0.0, step=0.1)
 
